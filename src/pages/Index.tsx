@@ -29,26 +29,26 @@ const Index = () => {
 
   // Set default tasks function
   const setDefaultTasks = () => {
-    const defaultTasks = [
+    const defaultTasks: Task[] = [
       {
         id: "1",
         title: "Complete project proposal",
         description: "Write up the initial proposal for the new client project",
-        priority: "high",
+        priority: "high" as "high",
         completed: false,
       },
       {
         id: "2",
         title: "Go grocery shopping",
         description: "Buy fruits, vegetables, and other essentials",
-        priority: "medium",
+        priority: "medium" as "medium",
         completed: false,
       },
       {
         id: "3",
         title: "Morning workout",
         description: "30 minutes cardio and strength training",
-        priority: "low",
+        priority: "low" as "low",
         completed: true,
       },
     ];
